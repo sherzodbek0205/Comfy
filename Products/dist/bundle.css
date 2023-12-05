@@ -1,0 +1,224 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body{
+ width: 100%;
+font-family: 'Poppins';
+height: 130dvh;
+
+}
+.navbar{
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ padding: 15px 10px;
+}
+.part{
+ display: flex;
+ align-items: center;
+ gap: 30px;
+ margin-left: -200px;
+}
+.login{
+ display: flex;
+ align-items: center;
+gap: 25px;
+}
+p{
+ font-size: 20px;
+}
+.main{
+ background-color: #EADED7;
+ display: flex;
+ padding: 65px 170px;
+
+}
+.svg{
+ display: flex;
+ align-items: center;
+}
+.input {
+ width: 320px;
+ height: 45px;
+ padding: 12px;
+ border-radius: 12px;
+ border: 1.5px solid lightgrey;
+ outline: none;
+ transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+ box-shadow: 0px 0px 20px -18px;
+}
+
+.input:hover {
+ border: 2px solid lightgrey;
+ box-shadow: 0px 0px 20px -17px;
+}
+
+.input:active {
+ transform: scale(0.95);
+}
+
+.input:focus {
+ border: 2px solid grey;
+}
+.mainevent{
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ margin-top: 15px;
+}
+.sort{
+ display: flex;
+ align-items: center;
+ gap: 10px;
+}
+
+#imageContainer1{
+ display: flex;
+ gap: 16px;
+ max-width: 1490px;
+ padding: 35px 20px;
+ margin-left: 15px;
+}
+
+img{
+ width: 350px;
+ height: 280px;
+}
+.image{
+ width: 350px;
+ height: 280px;
+}
+.comfy{
+ width: 266px;
+ height: 78px;
+}
+.price{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+p{
+ text-transform: capitalize;
+ font-weight: 300;
+}
+.Price{
+ color: orange;
+}
+h2{
+ display: flex;
+ align-items: center;
+ gap: 5px;
+}
+.Card{
+ display: flex;
+ gap: 55px;
+ margin-bottom: 45px;
+ margin-top: 45px;
+}
+.right{
+ display: flex;
+ flex-direction: column;
+ gap: 25px;
+}
+.bName{
+ font-size: 25px;
+ font-weight: 800;
+}
+.pPrice{
+color: orange;
+font-size: 20px;
+font-weight: 500;
+}
+.description{
+ width: 800px;
+ font-size: 15px;
+}
+.custom-button {
+ position: relative;
+ display: inline-block;
+ padding: 12px 24px;
+ font-size: 18px;
+ color: #fff;
+ background-color: #ff8c00;
+ border: none;
+ border-radius: 50px;
+ cursor: pointer;
+ overflow: hidden;
+ z-index: 1;
+ width: 105px;
+ height: 40px;
+}
+
+.custom-button::before {
+ content: "";
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 120%;
+ height: 120%;
+ background-color: rgba(255, 255, 255, 0.3);
+ opacity: 0;
+ transition: all 0.5s ease-in-out;
+ transform: rotate(-45deg) translate(-50%, -50%);
+ z-index: -1;
+}
+
+.custom-button:hover::before {
+ opacity: 1;
+ transform: rotate(-45deg) translate(-50%, -50%) scale(1.2);
+}
+
+.custom-button span {
+ position: relative;
+ z-index: 2;
+}
+
+.custom-button:hover {
+ background-color: #ff5722;
+}
+.before{
+ box-shadow: inset rgb(7, 7, 8) 0px 1px 2px ;
+}
+#imageContainer{
+ display: flex;
+ flex-wrap: wrap;
+
+ gap: 16px;
+ max-width: 1300px;
+ height: 800px;
+ padding: 35px 20px;
+ margin-left: 55px;
+}
+#imageContainer{
+ overflow-y: scroll;
+}
+*::-webkit-scrollbar{
+ width: 0;
+ height: 0;
+}
+
+.Main{
+ display: flex;
+ gap: 110px;
+}
+.category{
+ width: 150px;
+ padding-left:55px;
+ padding-top: 35px;
+ display: flex;
+ flex-direction: column;
+ gap: 15px;
+
+}
+
+.Category{
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+
+}
+.p{
+ font-size: 18px;
+}
